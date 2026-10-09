@@ -1,0 +1,25 @@
+# Environments
+.venv/
+env/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Data (Hide dataset and embeddings)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Outputs (Hide models and submission CSVs)
+outputs/models/*
+!outputs/models/.gitkeep
+outputs/submissions/*
+!outputs/submissions/.gitkeep
+
+# Logs (Hide all log files)
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
